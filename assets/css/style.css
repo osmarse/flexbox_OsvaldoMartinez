@@ -16,7 +16,7 @@ body {
     margin-right: 10px;
     flex-direction: column;
     margin: 0%;
-    border-right: 1px solid #ccc;
+    height: 120px;
 }
 
 .mensajes {
@@ -30,11 +30,13 @@ body {
     width: 40px;
     height: 40px;
     margin-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .menu_usuario {
     display: flex;
-    width: 280px;
+    width: 250px;
     height: 80px;
     align-items: center;
     justify-content: space-evenly;
@@ -77,19 +79,19 @@ body {
     padding: 10px 35px;
 }
 
-.conectados {
+/* .conectados {
     display: flex;
     flex-direction: column;
     border-top: 1px solid #ccc;
     height: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
+} */
 
 .imagen_contacto{
     display: flex;
     border-top: 1px solid #ccc;
-    height: 80px;
+    height: 70px;
     align-items: flex-start;
     padding-left: 30px;
     padding-top: 10px;
@@ -114,13 +116,14 @@ body {
     background-color: #E8EBE4;
     width: 100%;
     height: 100%;
+    border-left: 1px solid #ccc;
 
 }
 
 .mensajes{
     display: flex;
     justify-content: center;
-    padding-top: 300px;
+    padding-top: 250px;
 }
 
 .mensajes img{
