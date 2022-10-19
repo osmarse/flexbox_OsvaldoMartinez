@@ -38,6 +38,7 @@ body {
     height: 80px;
     align-items: center;
     justify-content: space-evenly;
+    padding: 10px;
 }
 
 .imagen_usuario {
@@ -65,7 +66,8 @@ body {
     align-items: center;
     border-top: 1px solid #ccc;
     height: 100px;
-    
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .boton button {
@@ -80,8 +82,8 @@ body {
     flex-direction: column;
     border-top: 1px solid #ccc;
     height: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .imagen_contacto{
